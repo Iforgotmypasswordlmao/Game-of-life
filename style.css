@@ -1,0 +1,56 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#startAndStop {
+    background-color: #ffbf00;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+
+#project {
+    display: flex;
+    flex-direction: row;
+}
+
+#projectInformation {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px
+}
+
+#projectInstructions {
+    border-radius: 10px;
+    border: solid 1px hsla(215, 100%, 65%, .1);
+    padding: 10px;
+    background-color: hsla(215, 100%, 65%, .1);
+}
+
+#gridContainer {
+    background-color: #ffbf00;
+    width: 1200px;
+    height: 600px;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button img {
+    height: 20px;
+    width: 20px;
+}

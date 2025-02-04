@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="startAndStop">
+            <button id="start">
+                <img src="green flag.png" id="green">
+            </button>
+            <button id="stop">
+                <img src="red stop.png">
+            </button>
+        </div>
+        <div id="project">
+            <div id="gridContainer">
+                <canvas id="grid" width="1200" height="600"></canvas>
+            </div>
+            <div id="projectInformation">
+                <span><b>Instructions</b></span>
+                <div id="projectInstructions">
+                    <p>An implementation of Conway's game of life</p>
+                    <p>click on the grid to place alive cells, green flag to start and red flag to stop. Refresh to clear the grid</p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
